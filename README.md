@@ -38,29 +38,33 @@ cd book-management
 
 
 2️⃣ Create a Virtual Environment
-
+```bash
 python -m venv env
 source env/bin/activate  # macOS/Linux
 env\Scripts\activate  # Windows
+```
 
 
 3️⃣ Install Dependencies
-
+```bash
 pip install -r requirements.txt
+```
 
 4️⃣ Apply Migrations
-
+```bash
 python manage.py migrate
+```
 
 
 5️⃣ Create a Superuser
-
+```bash
 python manage.py createsuperuser
-
+```
 
 6️⃣ Run the Server
-
+```bash
 python manage.py runserver
+```
 
 
 
@@ -102,17 +106,18 @@ ModuleNotFoundError: Run pip install -r requirements.txt.
 Database issues: Run python manage.py migrate --run-syncdb.
 
 CORS issues: Ensure django-cors-headers is installed and configured in settings.py:
-
+```bash
 INSTALLED_APPS = [
     'corsheaders',
     ...
 ]
-
-
+```
+```bash
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     ...
 ]
-
+```
+```bash
 CORS_ALLOW_ALL_ORIGINS = True  # Allow frontend requests
-
+```
