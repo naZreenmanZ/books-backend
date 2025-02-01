@@ -155,40 +155,36 @@ Edit
 │── manage.py           # Django entry point
 │── requirements.txt    # Dependencies
 │── README.md           # Documentation
+
+
 🔧 Installation & Setup
 1️⃣ Clone the Repository
-bash
-Copy
-Edit
 git clone https://github.com/your-repo/book-management.git
 cd book-management
+
+
 2️⃣ Create a Virtual Environment
-bash
-Copy
-Edit
 python -m venv env
 source env/bin/activate  # macOS/Linux
 env\Scripts\activate  # Windows
+
+
 3️⃣ Install Dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
+
 4️⃣ Apply Migrations
-bash
-Copy
-Edit
 python manage.py migrate
+
+
 5️⃣ Create a Superuser
-bash
-Copy
-Edit
 python manage.py createsuperuser
+
+
 6️⃣ Run the Server
-bash
-Copy
-Edit
 python manage.py runserver
+
+
 Server will be available at http://127.0.0.1:8000/.
 
 🛠 API Endpoints
