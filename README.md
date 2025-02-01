@@ -4,10 +4,15 @@ A Django REST API for managing books and book lists, allowing users to create bo
 
 🚀 Features
 ✅ View all books 📖
+
 ✅ Create & delete book lists 📚
+
 ✅ Add & remove books from a list 📝
+
 ✅ RESTful API with Django REST Framework 🌐
+
 ✅ CORS enabled for frontend integration 🔄
+
 
 
 /books_backend
